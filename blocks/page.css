@@ -24,10 +24,17 @@
   .header {
     margin-top: 45px;
     width: 1000vw;
+    max-width: 600px;
   }
 
   .header__logo {
     width: 126px;
     margin-left: 27px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    max-width: 320px;
   }
 }
