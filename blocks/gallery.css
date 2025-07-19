@@ -52,23 +52,26 @@
   overflow: hidden;
 }
 
-.gallery__like-button {
+.heart {
   position: absolute;
   width: 21px;
   height: 19px;
-  padding: 0;
-  right: 7px;
-  bottom: 16px;
-  border: none;
-  background: transparent;
+  right: 10px;
+  bottom: 30px;
 }
 
-.gallery__like-button:hover {
+.heart:hover {
   opacity: 60%;
 }
 
-.gallery__like-button:active {
-  transform: translateY(-1px);
+.heart {
+  font-size: 20px;
+  cursor: pointer;
+  color: #000;
+}
+
+.heart.liked {
+  color: black;
 }
 
 @media screen and (max-width: 880px) {

@@ -56,6 +56,9 @@
   top: -35px;
   right: -35px;
 }
+.popup__close-button:hover {
+  opacity: 60%;
+}
 
 .popup__input {
   border: none;
@@ -73,6 +76,9 @@
   font-family: "Inter", sans-serif;
 }
 
+.popup__save-button:hover {
+  opacity: 80%;
+}
 @media screen and (max-width: 880px) {
   .popup__content {
     width: 88vw;
